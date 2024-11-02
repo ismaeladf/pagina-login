@@ -14,7 +14,7 @@ document
     if (username === validUsername && password === validPassword) {
       messageDiv.innerHTML = `
         <p style="color: green;">Login bem-sucedido!</p>
-        <a href="https://lookerstudio.google.com/reporting/2afe6146-ed03-450f-9f22-12923c6ae72e" target="_blank">Clique aqui para acessar</a>
+        <a href="https://">Clique aqui para acessar</a>
       `;
     } else {
       messageDiv.textContent = "Usuário ou senha inválidos.";
